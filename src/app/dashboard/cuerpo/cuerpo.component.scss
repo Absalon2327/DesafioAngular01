@@ -1,3 +1,4 @@
+
 @use '../../app.component.scss';
 
 body {
@@ -6,8 +7,12 @@ body {
 }
 
 .contenedor {
-  margin: 5%;
-  width: 10%;
+  overflow: hidden;
+  margin: 0 auto;
+  max-width: 1920px;
+  padding: 10px 0;
+
+
 }
 
 .panel {
@@ -16,7 +21,7 @@ body {
 }
 
 .imagen{
-  width: 10%;
+  padding: 2% 5%;max-width: 400px;
 }
 
 h2 {
