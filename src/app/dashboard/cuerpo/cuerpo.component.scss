@@ -1,0 +1,24 @@
+@use '../../app.component.scss';
+
+body {
+  font-family: var(--font-main);
+
+}
+
+.contenedor {
+  margin: 5%;
+  width: 10%;
+}
+
+.panel {
+  margin: 5%;
+  max-width: 10%;
+}
+
+.imagen{
+  width: 10%;
+}
+
+h2 {
+  color: var(--Off-white);
+}
