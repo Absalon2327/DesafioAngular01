@@ -10,9 +10,15 @@
   --Very-dark-blue: hsl(240, 100%, 5%);
 }
 
-* {
+
+body {
+  font-family: var(--font-headings);
   margin: 0;
   box-sizing: border-box;
+  max-width: 1440px;
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
 }
 
 

@@ -1,29 +1,49 @@
-
 @use '../../app.component.scss';
 
-body {
-  font-family: var(--font-main);
-
+img {
+  width: 60%;
+  height: 325px;
+  margin-left: 75px
 }
 
-.contenedor {
-  overflow: hidden;
-  margin: 0 auto;
-  max-width: 1920px;
-  padding: 10px 0;
-
-
+.text-secondary {
+  color: var(--Dark-grayish-blue);
 }
 
-.panel {
-  margin: 5%;
-  max-width: 10%;
+.texto-grande {
+  color: var(--Very-dark-blue);
+  font-size: 50px;
+  font-weight: 800;
 }
 
-.imagen{
-  padding: 2% 5%;max-width: 400px;
-}
-
-h2 {
+.text-white {
   color: var(--Off-white);
+}
+
+
+.col1 {
+  margin-top: 25px;
+  width: 20%;
+  float: left;
+  margin-left: 75px;
+}
+
+.col2 {
+  font-size: 18px;
+  margin-top: 25px;
+  width: 30%;
+  float: left;
+  margin-left: 115px;
+}
+
+.btn {
+  margin-top: 25px;
+  border: 0;
+  background-color: var(--Soft-red);
+  height: 50px;
+  width: 200px;
+  font-family: 'Poppins', 'sans-serif';
+}
+.read-btn{
+  margin-left: 5px;
 }

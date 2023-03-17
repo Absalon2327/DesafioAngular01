@@ -1,0 +1,38 @@
+@use '../../app.component.scss';
+
+.panel {
+  margin-right: 85px;
+  width: 27%;
+  background-color: var(--Very-dark-blue);
+  float: right;
+}
+.text-secondary {
+  color: var(--Dark-grayish-blue);
+}
+
+.texto-grande {
+  color: var(--Very-dark-blue);
+  font-size: 50px;
+  font-weight: 800;
+}
+
+.text-white {
+  color: var(--Off-white);
+}
+
+.texto {
+  font-size: 18px;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  font-weight: 400;
+}
+hr {
+  border-color: var(--Dark-grayish-blue);
+}
+
+h2 {
+  color: var(--Soft-orange);
+  font-weight: 700;
+}

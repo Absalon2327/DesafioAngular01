@@ -8,10 +8,10 @@ div {
 nav {
   display: flex;
   padding: 2% 5%;
-  width: 100%;
+  max-width: 1440px;
 }
 
-nav .links {
+.links {
   font-weight: 700;
   margin-left: auto;
   display: flex;
@@ -19,7 +19,7 @@ nav .links {
   width: 40%;
 }
 
-nav .links a {
+.links a {
   text-decoration: none;
   color: hsl(238, 22%, 44%);
 }
