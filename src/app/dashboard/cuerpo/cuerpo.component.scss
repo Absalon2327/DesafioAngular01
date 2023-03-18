@@ -37,12 +37,16 @@ img {
 }
 
 .btn {
+  cursor: pointer;
   margin-top: 25px;
   border: 0;
   background-color: var(--Soft-red);
   height: 50px;
   width: 200px;
   font-family: 'Poppins', 'sans-serif';
+}
+.btn:hover{
+  background-color: var(--Very-dark-blue);
 }
 .read-btn{
   margin-left: 5px;

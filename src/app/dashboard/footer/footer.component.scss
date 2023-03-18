@@ -1,2 +1,72 @@
-@use '../../app.component.scss';
+.images-pc {
+  height: 160px;
+  width: 140px;
+}
 
+.imagen1 {
+  width: 30%;
+  margin-top: 20%;
+  margin-left: 5%;
+}
+.imagen2 {
+  width: 30%;
+  float: right;
+  margin-top: -8%;
+  margin-right: 35%;
+}
+
+.imagen3 {
+  width: 35%;
+  float: right;
+  margin-top: -12.5%;
+  margin-right: 2%;
+}
+
+.texto1 {
+  float: left;
+  color: var(--Grayis-blue);
+  font-weight: 700;
+  margin-left: 2%;
+  font-size: 30pt;
+  margin-top: 0%;
+}
+
+.texto2 {
+  color: var(--Very-dark-blue);
+  font-weight: 700;
+  font-size: 15pt;
+  margin-left: 2%;
+}
+
+.texto2:hover{
+  cursor: pointer;
+  color: var(--Soft-red);
+}
+
+.texto3 {
+  float: left;
+  color: var(--Dark-grayish-blue);
+  font-weight: 700;
+  font-size: 13pt;
+  margin-top: 3%;
+  margin-left: 2%;
+  width: 15em;
+  height: 3em;
+}
+
+.texto4 {
+  float: left;
+  color: var(--Dark-grayish-blue);
+  font-weight: 700;
+  font-size: 13pt;
+  margin-top: 3%;
+  margin-left: 2%;
+  width: 18em;
+  height: 3em;
+}
+
+img.izquierda {
+
+  justify-content: space-around;
+  float: left;
+}

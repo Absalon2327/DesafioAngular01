@@ -19,6 +19,10 @@
 .text-white {
   color: var(--Off-white);
 }
+.text-white:hover {
+  cursor: pointer;
+  color: var(--Soft-orange);
+}
 
 .texto {
   font-size: 18px;

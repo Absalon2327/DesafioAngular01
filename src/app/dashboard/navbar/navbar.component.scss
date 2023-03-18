@@ -19,7 +19,8 @@ nav {
   width: 40%;
 }
 
-.links a {
+.links a:hover {
   text-decoration: none;
-  color: hsl(238, 22%, 44%);
+  color: var(--Soft-red);;
+  cursor: pointer;
 }
