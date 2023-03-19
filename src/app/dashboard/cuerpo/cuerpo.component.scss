@@ -1,19 +1,25 @@
-@use '../../app.component.scss';
+@use '../../../styles.scss';
+
+.container{
+  width: 100%;
+}
+
 
 img {
-  width: 60%;
+  width: 62%;
   height: 325px;
-  margin-left: 75px
+  margin-left: 75px;
 }
 
 .text-secondary {
   color: var(--Dark-grayish-blue);
+  font-size: 16pt;
 }
 
 .texto-grande {
   color: var(--Very-dark-blue);
-  font-size: 50px;
-  font-weight: 800;
+  font-size: 50pt;
+  font-weight: 900;
 }
 
 .text-white {
@@ -23,17 +29,16 @@ img {
 
 .col1 {
   margin-top: 25px;
-  width: 20%;
+  width: 30%;
   float: left;
   margin-left: 75px;
 }
 
 .col2 {
-  font-size: 18px;
-  margin-top: 25px;
-  width: 30%;
+  margin-top: 50px;
+  width: 28%;
   float: left;
-  margin-left: 115px;
+  margin-left: 45px;
 }
 
 .btn {
@@ -44,9 +49,9 @@ img {
   height: 50px;
   width: 200px;
   font-family: 'Poppins', 'sans-serif';
-}
-.btn:hover{
-  background-color: var(--Very-dark-blue);
+  &:hover{
+    background-color: var(--Very-dark-blue);
+  }
 }
 .read-btn{
   margin-left: 5px;

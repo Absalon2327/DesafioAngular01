@@ -1,72 +1,96 @@
-.images-pc {
+img.izquierda{
+  float: left;
+}
+
+.imagen {
+  margin-top: 22%;
+  margin-left: 35px;
+  margin-bottom: 20px;
   height: 160px;
   width: 140px;
+  padding: 10px;
+  position: absolute;
 }
 
-.imagen1 {
-  width: 30%;
-  margin-top: 20%;
-  margin-left: 5%;
-}
-.imagen2 {
-  width: 30%;
-  float: right;
-  margin-top: -8%;
-  margin-right: 35%;
+.images-pc {
+  @extend .imagen;
+  float: left;
 }
 
-.imagen3 {
-  width: 35%;
-  float: right;
-  margin-top: -12.5%;
-  margin-right: 2%;
+.images-laptop{
+  @extend .imagen;
+  margin-left: 500px;
+}
+
+.images-gaming{
+  @extend .imagen;
+  margin-left: 940px;
+}
+
+.texto{
+  left: 210px;
+  z-index: 100;
 }
 
 .texto1 {
-  float: left;
+  @extend .texto;
   color: var(--Grayis-blue);
   font-weight: 700;
-  margin-left: 2%;
+  position: absolute;
   font-size: 30pt;
-  margin-top: 0%;
+  font-weight: bold;
+  top: 1px;
 }
 
 .texto2 {
+  @extend .texto;
   color: var(--Very-dark-blue);
-  font-weight: 700;
-  font-size: 15pt;
-  margin-left: 2%;
-}
-
-.texto2:hover{
-  cursor: pointer;
-  color: var(--Soft-red);
+  width: 250px;
+  position: absolute;
+  font-size: 16pt;
+  font-weight: bold;
+  top: 80px;
+  &:hover{
+    cursor: pointer;
+    color: var(--Soft-red);
+  }
 }
 
 .texto3 {
-  float: left;
+  @extend .texto;
+  width: 290px;
   color: var(--Dark-grayish-blue);
   font-weight: 700;
-  font-size: 13pt;
-  margin-top: 3%;
-  margin-left: 2%;
-  width: 15em;
-  height: 3em;
+  font-size: 12pt;
+  position: absolute;
+  top: 145px;
+}
+.text-laptop1, .text-laptop2, .text-laptop3{
+  left: 675px
+}
+.text-laptop1{
+  @extend .texto1;
+}
+.text-laptop2{
+  @extend .texto2;
+  width: 260px;
+}
+.text-laptop3{
+  @extend .texto3;
+  width: 250px;
 }
 
-.texto4 {
-  float: left;
-  color: var(--Dark-grayish-blue);
-  font-weight: 700;
-  font-size: 13pt;
-  margin-top: 3%;
-  margin-left: 2%;
-  width: 18em;
-  height: 3em;
+.text-gaming1, .text-gaming2, .text-gaming3{
+  left: 1110px
 }
-
-img.izquierda {
-
-  justify-content: space-around;
-  float: left;
+.text-gaming1{
+  @extend .texto1;
+}
+.text-gaming2{
+  @extend .texto2;
+  width: 270px;
+}
+.text-gaming3{
+  @extend .texto3;
+  width: 290px;
 }

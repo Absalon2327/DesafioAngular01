@@ -1,8 +1,9 @@
-@use '../../app.component.scss';
+@use '../../../styles.scss';
 
-.panel {
-  margin-right: 85px;
+.panel{
+  margin-right: 50px;
   width: 27%;
+  height: 575px;
   background-color: var(--Very-dark-blue);
   float: right;
 }
